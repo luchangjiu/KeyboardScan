@@ -136,8 +136,6 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnEnd = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -487,8 +485,6 @@
             this.tableLayoutPanel1.Controls.Add(this.btnF1, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnEscape, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.lblKey, 7, 6);
-            this.tableLayoutPanel1.Controls.Add(this.label1, 14, 6);
-            this.tableLayoutPanel1.Controls.Add(this.linkLabel1, 17, 6);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(1);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -1818,31 +1814,6 @@
             this.btnNext.Text = "PGDN";
             this.btnNext.UseVisualStyleBackColor = false;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.tableLayoutPanel1.SetColumnSpan(this.label1, 3);
-            this.label1.Font = new System.Drawing.Font("宋体", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(562, 267);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 15, 3, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 14);
-            this.label1.TabIndex = 129;
-            this.label1.Text = "封神奇迹专用";
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.tableLayoutPanel1.SetColumnSpan(this.linkLabel1, 6);
-            this.linkLabel1.Location = new System.Drawing.Point(683, 267);
-            this.linkLabel1.Margin = new System.Windows.Forms.Padding(3, 15, 3, 0);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(155, 12);
-            this.linkLabel1.TabIndex = 130;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "http://www.7776mu.com:88/";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
-            // 
             // Keyboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1853,7 +1824,7 @@
             this.Name = "Keyboard";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "封神奇迹专用键盘检测";
+            this.Text = "键盘检测";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Keyboard_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
@@ -1972,7 +1943,5 @@
         private System.Windows.Forms.Button btnPageUp;
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnEnd;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
